@@ -11,10 +11,10 @@ const HomePage = () => {
       <p className="text-xl mb-8">
         Discover my projects, skills, and professional journey.
       </p>
-      <div className="bg-gray-100 p-12 m-12 rounded-2xl border-2 hover:shadow-lg transition-all">
+      <div className="bg-gray-100 p-12 m-12 rounded-2xl border-2">
         <AboutPage />
       </div>
-      <button className="bg-white text-black border-black border-2 px-4 py-2 rounded-full font-semibold hover:bg-gray-100">
+      <button className="bg-white text-black border-black border-2 px-4 py-2 rounded-full font-semibold hover:bg-gray-300">
         Get in Touch
       </button>
     </div>

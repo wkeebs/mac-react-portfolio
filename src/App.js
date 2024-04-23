@@ -3,6 +3,8 @@ import HomePage from "./pages/HomePage";
 import NavBar from "./components/NavBar";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+import BlogPage from "./pages/BlogPage";
+import BlogPost from "./pages/BlogPost";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/blog" element={<ContactPage />} />
+          {/* Blogs */}
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
         </Routes>
       </BrowserRouter>
       {/* <NavBar />

@@ -1,20 +1,17 @@
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import NavBar from "./components/NavBar";
-// import AboutPage from "./pages/AboutPage";
-// import ContactPage from "./pages/ContactPage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+import ExperiencePage from "./pages/ExperiencePage";
+
 
 function App() {
   return (
     <>
-      {/* <BrowserRouter>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-        </Routes>
-      </BrowserRouter> */}
+      {/* Exercise 1: Add routes to your app so that the Navbar knows what to display 
+          Hint** Use the <BrowserRouter>, <Routes>, and <Route> components from react-router-dom
+      */}
       <NavBar />
       <HomePage />
     </>

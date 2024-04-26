@@ -11,13 +11,12 @@ const NavBar = () => {
         }
 
         <div className="text-lg font-semibold">
-          <button className="hover:text-white p-2 rounded-lg">
-            My Portfolio
-          </button>
+          <Link to="/" className="hover:text-white p-2 rounded-lg">My Portfolio</Link>
         </div>
         <div>
-          <button className="hover:text-white px-3">Experience</button>
-          <button className="hover:text-white px-3">Contact</button>
+          <Link to="/blog" className="hover:text-white px-3">Blog</Link>
+          <Link to="/experience" className="hover:text-white px-3">Experience</Link>
+          <Link to="/contact" className="hover:text-white px-3">Contact</Link>
         </div>
       </div>
     </nav>

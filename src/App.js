@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import BlogPage from "./pages/BlogPage";
-import BlogPost from "./pages/BlogPost";
+import BlogPostPage from "./pages/BlogPostPage";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           {/* Blogs */}
           <Route path="/blog" element={<BlogPage />} />
-          <Route path="/blog/:slug" element={<BlogPost />} />
+          <Route path="/blog/:slug" element={<BlogPostPage />} />
         </Routes>
       </BrowserRouter>
       {/* <NavBar />

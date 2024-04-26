@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import AboutPage from "./AboutPage";
 
 const HomePage = () => {
@@ -14,6 +13,7 @@ const HomePage = () => {
       <div className="bg-gray-100 p-12 m-12 rounded-2xl border-2">
         <AboutPage />
       </div>
+      {/* Bonus: Can you make this button navigate to the Contact page? */}
       <button className="bg-white text-black border-black border-2 px-4 py-2 rounded-full font-semibold hover:bg-gray-300">
         Get in Touch
       </button>

@@ -50,7 +50,7 @@ export default function BlogPost() {
             {/* Upvoting */}
             <div className="flex p-2 items-center justify-center space-x-2">
                 <button
-                    className="border p-2 rounded-xl px-3 hover:bg-slate-100 transition"
+                    className="border p-2 rounded-xl px-3 hover:bg-slate-100 transition"x
                     onClick={onUpvote}
                 >
                     👍
